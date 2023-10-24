@@ -6,6 +6,7 @@ https://earthquake.usgs.gov/fdsnws/event/1/query
 
 ## Sample Output
 ### Number of 6.0+ in 24hr Moving Window
+```
 1-Day Window 4:
 33 km NNE of Zindah Jān, Afghanistan - Magnitude: 6.3 - Date: 2023-10-07 06:41:03.335000
 western Afghanistan - Magnitude: 6.3 - Date: 2023-10-07 07:12:50.034000
@@ -20,8 +21,9 @@ None - Magnitude: 6.3 - Date: 2023-10-11 00:41:56.160000
 1-Day Window 2:
 133 km NW of Atka, Alaska - Magnitude: 6.7 - Date: 2023-10-16 11:35:30
 65 km NNW of Adak, Alaska - Magnitude: 6.4 - Date: 2023-10-16 11:35:31.726000
-
+```
 ### Number of 6.0+ in 30day Moving Window
+```
 30-Day Window 15:
 Near the coast of Coquimbo, Chile - Magnitude: 6.3 - Date: 2023-09-06 23:48:04.631000
 south of the Kermadec Islands - Magnitude: 6.6 - Date: 2023-09-08 09:09:57.277000
@@ -53,7 +55,7 @@ None - Magnitude: 6 - Date: 2023-10-13 03:44:32.333000
 133 km NW of Atka, Alaska - Magnitude: 6.7 - Date: 2023-10-16 11:35:30
 65 km NNW of Adak, Alaska - Magnitude: 6.4 - Date: 2023-10-16 11:35:31.726000
 Kermadec Islands, New Zealand - Magnitude: 6 - Date: 2023-10-23 10:10:15.384000
-
+```
 ### Top Three Earthquake by Year, Month, Day
 
 Top Three Earthquake Frequencies by Year:
@@ -72,8 +74,10 @@ Day 1951-10-22: 14 earthquakes
 Day 1964-03-28: 14 earthquakes
 
 #### wip - number of aftershock on the same radius after a megaquake
+```
 def find_megaquakes_and_aftershocks(megamagnitude_threshold, aftermagnitude_threshold, radius_miles):
-
+```
 #### Number of quakes in a moving time window
+```
 def find_multiple_quakes_in_window(earthquake_features, magnitude_threshold, days=1, print_all=0):
-
+```
