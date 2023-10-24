@@ -1,6 +1,16 @@
+# fetch_earthquake.py
+Get, save, analyze earthquake data by date range for a magnitude or greater
 
+## Data Source
+https://earthquake.usgs.gov/fdsnws/event/1/query
+
+## Sample Output
+### Number of 6.0+ in 24hr Moving Window
+1-Day Window 4:
+33 km NNE of Zindah Jān, Afghanistan - Magnitude: 6.3 - Date: 2023-10-07 06:41:03.335000
+western Afghanistan - Magnitude: 6.3 - Date: 2023-10-07 07:12:50.034000
+57 km SE of Madang, Papua New Guinea - Magnitude: 6.7 - Date: 2023-10-07 08:34:26.903000
 None - Magnitude: 6.9 - Date: 2023-10-07 08:40:11.603000
-
 
 1-Day Window 2:
 57 km WSW of Abra Pampa, Argentina - Magnitude: 6 - Date: 2023-10-10 10:01:31.086000
